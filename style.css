@@ -1,0 +1,272 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  text-align: justify;
+}
+#first-section {
+  width: 100%;
+  height: 650px;
+  padding-top: 30px;
+  margin: auto;
+  background-image: url(imgs/banner-1.jpg);
+  background-repeat: no-repeat;
+}
+
+.nav-box {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  margin: auto;
+}
+
+.nav-bar {
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+
+.nav-buttons {
+  width: 100px;
+  height: 30px;
+  color: #ffffff77;
+  font-weight: 100;
+  border: 1px solid #ffffff31;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.gold-title {
+  color: #f7d933;
+  font-size: 50px;
+}
+
+.head-title {
+  color: orange;
+  font-size: 30px;
+}
+
+.orange-button {
+  width: 100px;
+  height: 30px;
+  font-weight: 100;
+  color: white;
+  background-image: linear-gradient(to right, gold, orange);
+  border: 1px solid gold;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.orange-button2 {
+  text-align: center;
+  width: 130px;
+  height: 30px;
+  font-weight: 100;
+  color: white;
+  background-image: linear-gradient(to right, gold, orange);
+  border: 1px solid gold;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.introduction {
+  display: flex;
+  margin: auto;
+}
+
+.title {
+  color: white;
+  width: 700px;
+  height: 500px;
+  margin-left: 70px;
+  margin-top: 100px;
+}
+
+.chef1 img {
+  width: 600px;
+  height: 600px;
+}
+
+/* End of First Section */
+
+#second-section {
+  display: flex;
+  margin: auto;
+}
+
+.food {
+  margin: 65px 0 50px 50px;
+}
+
+.about {
+  width: 530px;
+  margin-top: 120px;
+  margin-left: 30px;
+  margin-right: 70px;
+}
+
+.about h1 {
+  font-size: 40px;
+}
+
+/*End of Second Section */
+
+#third-section {
+  width: 100%;
+  height: 500px;
+  padding-top: 20px;
+  margin: auto;
+  background-image: url(imgs/banner-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  margin: auto;
+}
+
+.circles {
+  margin-top: 10px;
+}
+
+.circles h1 {
+  text-align: center;
+  color: white;
+  width: 100px;
+  height: 100px;
+  background-color: #ffd900be;
+  border: 1px solid #ffd900be;
+  border-radius: 50px;
+  margin-bottom: 60px;
+  margin-left: 625px;
+}
+
+.branches {
+  color: white;
+  margin-bottom: 40px;
+  margin-left: 30px;
+  margin-right: 90px;
+}
+
+.in-branches {
+  margin-bottom: 50px;
+}
+
+.in-branches h3 {
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+/*End of Third Section */
+
+.recipy-headings {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+
+/*End of Fourth Section */
+
+#fifth-section {
+  display: flex;
+  margin: auto;
+}
+
+.recipy-box {
+  width: 272px;
+  height: 550px;
+  border: 10px solid white;
+  margin: 0 50px 100px 50px;
+  box-shadow: 5px 5px 15px gray;
+}
+.recipy-text {
+  padding: 20px;
+}
+
+.recipy-details {
+  display: flex;
+  margin: auto;
+}
+
+/*End of Fifth Section */
+
+#sixth-section {
+  text-align: center;
+  font-size: 20px;
+}
+
+.norma {
+  color: orange;
+}
+
+/*End of Sixth Section */
+
+#seventh-section {
+  display: flex;
+  margin: 60px auto;
+}
+
+.main-footer h3
+{
+  font-weight: lighter;
+}
+
+.main-footer {
+  
+  display: flex;
+  margin: auto;
+}
+
+.footer {
+  display: flex;
+  margin: 0 auto;
+}
+
+.magazines img {
+  width: 250px;
+  height: 250px;
+}
+.magazines {
+  text-align: center;
+  
+  width: 450px;
+  height: 300px;
+}
+
+.learn {
+  text-align: center;
+  
+  width: 450px;
+  height: 300px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.contact {
+  text-align: center;
+  
+  width: 450px;
+  height: 300px;
+}
+
+/*End of Seventh Section */
+
+.last
+{
+  text-align: center;
+  color: white;
+  height: 200px;
+  width: 100%;
+  background-color: #000000ee;
+  font-size: 15px;
+  padding-top: 15px;
+}
+
+.last h3
+{
+  font-weight: lighter;
+}
+
+/* 1st Assignment Complete */
