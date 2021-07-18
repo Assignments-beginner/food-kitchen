@@ -115,11 +115,9 @@ p {
 }
 .half-width {
   width: 50%;
-  
 }
 .food {
   width: 90%;
-    
 }
 .food img {
   width: 100%;
@@ -129,7 +127,6 @@ p {
 .about {
   width: 80%;
   margin-left: 50px;
-      
 }
 
 .about h1 {
@@ -152,17 +149,13 @@ p {
   background-size: 100%;
   /* background-size: cover; */
   background-repeat: no-repeat;
-    
 }
 
-.branches
-{
+.branches {
   width: 50%;
   color: white;
   margin-left: 623px;
-  
 }
-
 
 .circles h1 {
   text-align: center;
@@ -172,22 +165,17 @@ p {
   background-color: #ffd900be;
   border: 1px solid #ffd900be;
   border-radius: 50px;
-  
-  
 }
-.in-branches
-{
+.in-branches {
   display: flex;
   align-items: center;
-    
 }
 .in-branches h3 {
   font-weight: lighter;
   font-size: 25px;
   line-height: 0;
 }
-.b-info
-{
+.b-info {
   margin-left: 20px;
 }
 
