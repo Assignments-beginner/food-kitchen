@@ -4,9 +4,8 @@ body {
   padding: 0;
 }
 
-a{
+a {
   text-decoration: none;
-  
 }
 
 p {
@@ -49,8 +48,7 @@ p {
   font-size: 50px;
 }
 
-.white-title
-{
+.white-title {
   font-size: 50px;
 }
 
@@ -72,14 +70,16 @@ p {
 
 .orange-button2 {
   text-align: center;
+  display: inline-block;
   width: 130px;
-  height: 30px;
+  height: 35px;
   font-weight: 100;
   color: white;
   background-image: linear-gradient(to right, gold, orange);
   border: 1px solid gold;
-  border-radius: 50px;
+  border-radius: 60px;
   margin: 10px;
+  padding-top: 3px;
 }
 
 .introduction {
@@ -103,50 +103,66 @@ p {
 /* End of First Section */
 
 #second-section {
+  width: 100%;
+  height: 510px;
   display: flex;
-  margin: auto;
+  justify-content: center;
+  align-items: center;
   background-image: url(imgs/banner-3.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 80px;
 }
-
+.half-width {
+  width: 50%;
+  
+}
 .food {
-  margin: 65px 0 50px 50px;
-  /* border: 2px solid black; */
-  background-color: whitesmoke;
+  width: 90%;
+    
 }
-
+.food img {
+  width: 100%;
+  background-color: whitesmoke;
+  margin-left: 70px;
+}
 .about {
-  width: 530px;
-  margin-top: 120px;
-  margin-left: 30px;
-  margin-right: 70px;
+  width: 80%;
+  margin-left: 50px;
+      
 }
 
 .about h1 {
   font-size: 40px;
 }
 
-.about p
-{
-  margin-bottom: 30px;
+.about p {
+  margin-bottom: 20px;
+  font-size: 18px;
 }
+
 /*End of Second Section */
 
 #third-section {
   width: 100%;
   height: 500px;
-  padding-top: 20px;
-  margin: auto;
-  background-image: url(imgs/banner-2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
-  margin: auto;
+  align-items: center;
+  background-image: url(imgs/banner-2.jpg);
+  background-size: 100%;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+    
 }
 
-.circles {
-  margin-top: 10px;
+.branches
+{
+  width: 50%;
+  color: white;
+  margin-left: 623px;
+  
 }
+
 
 .circles h1 {
   text-align: center;
@@ -156,24 +172,23 @@ p {
   background-color: #ffd900be;
   border: 1px solid #ffd900be;
   border-radius: 50px;
-  margin-bottom: 60px;
-  margin-left: 625px;
+  
+  
 }
-
-.branches {
-  color: white;
-  margin-bottom: 40px;
-  margin-left: 30px;
-  margin-right: 90px;
+.in-branches
+{
+  display: flex;
+  align-items: center;
+    
 }
-
-.in-branches {
-  margin-bottom: 50px;
-}
-
 .in-branches h3 {
   font-weight: lighter;
   font-size: 25px;
+  line-height: 0;
+}
+.b-info
+{
+  margin-left: 20px;
 }
 
 /*End of Third Section */
@@ -226,13 +241,11 @@ p {
   margin: 60px auto;
 }
 
-.main-footer h3
-{
+.main-footer h3 {
   font-weight: lighter;
 }
 
 .main-footer {
-  
   display: flex;
   margin: auto;
 }
@@ -248,14 +261,14 @@ p {
 }
 .magazines {
   text-align: center;
-  
+
   width: 450px;
   height: 300px;
 }
 
 .learn {
   text-align: center;
-  
+
   width: 450px;
   height: 300px;
   border-left: 1px solid gray;
@@ -264,15 +277,14 @@ p {
 
 .contact {
   text-align: center;
-  
+
   width: 450px;
   height: 300px;
 }
 
 /*End of Seventh Section */
 
-.last
-{
+.last {
   text-align: center;
   color: white;
   height: 200px;
@@ -282,8 +294,7 @@ p {
   padding-top: 15px;
 }
 
-.last h3
-{
+.last h3 {
   font-weight: lighter;
 }
 
