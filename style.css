@@ -96,9 +96,19 @@ p {
   margin-top: 100px;
 }
 
+.chef1
+{
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 390px;
+  height: 430px;
+  
+}
+
 .chef1 img {
-  width: 600px;
-  height: 600px;
+  width: 100%;
+  height: 100%;
+  
 }
 
 /* End of First Section */
