@@ -16,8 +16,9 @@ p {
   height: 650px;
   padding-top: 30px;
   margin: auto;
-  background-image: url(imgs/banner-1.jpg);
+  background-image: url(imgs/banner-1.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav-box {
@@ -145,7 +146,7 @@ p {
   height: 500px;
   display: flex;
   align-items: center;
-  background-image: url(imgs/banner-2.jpg);
+  background-image: url(imgs/banner-2.png);
   background-size: 100%;
   /* background-size: cover; */
   background-repeat: no-repeat;
